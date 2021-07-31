@@ -1,6 +1,6 @@
-import request from '#axiemize/utils/request'
+const request = require('../utils/request')
 
-export const gql = `query GetAxieBriefList(
+const gql = `query GetAxieBriefList(
   $auctionType: AuctionType
   $criteria: AxieSearchCriteria
   $from: Int
@@ -118,4 +118,4 @@ const queryAxieBriefList = ({ classes, parts, hp, morale, breedCount, pureness, 
     },
   })
 
-export default queryAxieBriefList
+module.exports = queryAxieBriefList

@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+const fetch = require('node-fetch')
 
 const GRAPHQL_AXI_INFINITY = 'https://axieinfinity.com/graphql-server-v2/graphql'
 
@@ -13,4 +13,4 @@ const request = ({ query, variables }) => {
   }).then(r => r.json())
 }
 
-export default request
+module.exports = request

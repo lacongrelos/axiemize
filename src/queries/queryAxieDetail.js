@@ -1,6 +1,6 @@
-import request from '#axiemize/utils/request'
+const request = require('../utils/request')
 
-export const gql = `query GetAxieDetail($axieId: ID!) {
+const gql = `query GetAxieDetail($axieId: ID!) {
   axie(axieId: $axieId) {
     ...AxieDetail
     __typename
@@ -123,4 +123,4 @@ fragment AxieAuction on Auction {
 
 const queryAxieDetail = ({ id }) => request({ query: gql, variables: { axieId: id } })
 
-export default queryAxieDetail
+module.exports = queryAxieDetail

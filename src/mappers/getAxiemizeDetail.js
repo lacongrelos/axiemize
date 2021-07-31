@@ -1,4 +1,4 @@
-import { EmojiClasses, EmojiStats } from '#axiemize/mappers/AxieElements'
+const { EmojiClasses, EmojiStats } = require('./AxieElements')
 
 const getPart = ({ class: group, abilities = [], name }) => {
   const description = abilities.length
@@ -44,4 +44,4 @@ const getAxiemizeDetail = ({ class: group, id, breedCount, stats, auction, parts
   }
 }
 
-export default getAxiemizeDetail
+module.exports = getAxiemizeDetail

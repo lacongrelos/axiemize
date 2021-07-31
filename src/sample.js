@@ -1,4 +1,4 @@
-const sample = {
+module.exports = {
   data: {
     axie: {
       id: '1855729',
@@ -201,4 +201,4 @@ const sample = {
   },
 }
 
-export default sample
+

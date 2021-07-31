@@ -1,4 +1,4 @@
-export const EmojiClasses = {
+const EmojiClasses = {
   Plant: '🍀',
   Reptile: '🦎',
   Beast: '🦁',
@@ -10,23 +10,23 @@ export const EmojiClasses = {
   Dawn: '✨',
 }
 
-export const EmojiStats = {
+const EmojiStats = {
   hp: '🔋',
   speed: '💨',
   skill: '💡',
   morale: '💢',
 }
 
-export const AxieClasses = Object.keys(EmojiClasses)
+const AxieClasses = Object.keys(EmojiClasses)
 
-export const AxieBodyParts = {
+const AxieBodyParts = {
   mouth: '',
   back: '',
   tail: '',
   horn: '',
 }
 
-export const AxiePartNames = {
+const AxiePartNames = {
   'mouth-catfish': 'Aquatic',
   'back-hermit': 'Aquatic',
   'back-goldfish': 'Aquatic',
@@ -164,6 +164,13 @@ export const AxiePartNames = {
   'horn-pinku-unko': 'Reptile',
 }
 
-export const AxieParts = Object.keys(AxiePartNames)
+const AxieParts = Object.keys(AxiePartNames)
 
-export default EmojiClasses
+module.exports = {
+  AxieClasses,
+  AxieParts,
+  AxiePartNames,
+  AxieBodyParts,
+  EmojiClasses,
+  EmojiStats,
+}

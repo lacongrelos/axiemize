@@ -1,14 +1,4 @@
-const prettierOptions = {
-  printWidth: 120,
-  tabWidth: 2,
-  singleQuote: true,
-  trailingComma: 'es5',
-  bracketSpacing: true,
-  semi: false,
-  useTabs: false,
-  jsxBracketSameLine: false,
-  arrowParens: 'avoid',
-}
+const prettierOptions = require('./.prettierrc')
 
 const [OFF, WARNING, ERROR] = [0, 1, 2]
 
@@ -44,19 +34,9 @@ module.exports = {
       {
         arrays: 'always-multiline',
         objects: 'always-multiline',
-        imports: 'always-multiline',
-        exports: 'always-multiline',
         functions: 'never',
       },
     ],
     'prettier/prettier': [ERROR, prettierOptions],
-  },
-  settings: {
-    'import/resolver': {
-      alias: {
-        map: [['#axiemize', './src']],
-        extensions: ['.js', '.json'],
-      },
-    },
   },
 }
