@@ -1,10 +1,10 @@
-import yargs from 'yargs'
-import { hideBin } from 'yargs/helpers'
-import queryAxieDetail from '#axiemize/queries/queryAxieDetail'
-import queryAxieBriefList from '#axiemize/queries/queryAxieBriefList'
-import getAxiemizeDetail from '#axiemize/mappers/getAxiemizeDetail'
-import { AxieClasses, AxieParts, AxiePartNames, EmojiClasses } from '#axiemize/mappers/AxieElements'
-import capitalize from '#axiemize/utils/capitalize'
+const yargs = require('yargs')
+const { hideBin } = require('yargs/helpers')
+const { AxieClasses, AxieParts, AxiePartNames, EmojiClasses } = require('./mappers/AxieElements')
+const capitalize = require('./utils/capitalize')
+const queryAxieDetail = require('./queries/queryAxieDetail')
+const getAxiemizeDetail = require('./mappers/getAxiemizeDetail')
+const queryAxieBriefList = require('./queries/queryAxieBriefList')
 
 const simpleFormat = (type, ref) => (ref ? `${type}: ${ref}, ` : '')
 

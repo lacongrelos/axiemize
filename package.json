@@ -5,10 +5,6 @@
   "main": "index.js",
   "author": "Lacon Grelos <lacongrelos17@gmail.com>",
   "license": "AGPL-3.0-or-later",
-  "type": "module",
-  "imports": {
-    "#axiemize/*": "./src/*.js"
-  },
   "scripts": {
     "prepare": "husky install",
     "scout": "node src/scout",
@@ -45,7 +41,6 @@
     "prettier": "^2.3.2"
   },
   "dependencies": {
-    "colors": "^1.4.0",
     "node-fetch": "^2.6.1",
     "yargs": "^17.0.1"
   }
