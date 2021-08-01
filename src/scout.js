@@ -83,11 +83,15 @@ yargs(hideBin(process.argv))
           describe: 'axie min breed',
           type: 'number',
         })
+        .option('limit', {
+          describe: 'result list limit',
+          type: 'number',
+        })
         .example('scout market --classes Plants,Reptile')
         .example('scout market --classes p,r')
         .example('scout market --classes p,r --parts ba-shi')
     },
-    handler: async ({ classes = '', parts = '', pureness, hp, morale, skill, speed, breedCount }) => {
+    handler: async ({ classes = '', parts = '', pureness, hp, morale, skill, speed, breedCount, limit }) => {
       const parsedClasses = classes
         .split(',')
         .map(selectedClass => capitalize(selectedClass))
@@ -130,6 +134,7 @@ yargs(hideBin(process.argv))
         skill,
         speed,
         breedCount,
+        limit,
       })
 
       console.log(`Found ${gqlResponse.data.axies.total} axies`)
