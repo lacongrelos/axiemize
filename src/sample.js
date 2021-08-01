@@ -1,6 +1,6 @@
 module.exports = {
-  data:{
-    axie:
+  data: {
+    axie: {
       id: '1855729',
       image: 'https://storage.googleapis.com/assets.axieinfinity.com/axies/1855729/axie/axie-full-transparent.png',
       class: 'Reptile',
