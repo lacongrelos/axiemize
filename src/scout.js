@@ -4,6 +4,7 @@ const { AxieClasses, AxieParts, AxiePartNames, EmojiClasses } = require('./mappe
 const capitalize = require('./utils/capitalize')
 const queryAxieDetail = require('./queries/queryAxieDetail')
 const getAxiemizeDetail = require('./mappers/getAxiemizeDetail')
+const { getTotalParts } = require('./mappers/AxieGetters')
 const queryAxieBriefList = require('./queries/queryAxieBriefList')
 
 const simpleFormat = (type, ref) => (ref ? `${type}: ${ref}, ` : '')
@@ -87,11 +88,15 @@ yargs(hideBin(process.argv))
           describe: 'result list limit',
           type: 'number',
         })
+        .option('sort', {
+          describe: 'extra sort option [totals]',
+          type: 'string',
+        })
         .example('scout market --classes Plants,Reptile')
         .example('scout market --classes p,r')
         .example('scout market --classes p,r --parts ba-shi')
     },
-    handler: async ({ classes = '', parts = '', pureness, hp, morale, skill, speed, breedCount, limit }) => {
+    handler: async ({ classes = '', parts = '', pureness, hp, morale, skill, speed, breedCount, limit, sort }) => {
       const parsedClasses = classes
         .split(',')
         .map(selectedClass => capitalize(selectedClass))
@@ -138,7 +143,22 @@ yargs(hideBin(process.argv))
       })
 
       console.log(`Found ${gqlResponse.data.axies.total} axies`)
-      console.table(gqlResponse.data.axies.results.map(gqlAxieBrief => getAxiemizeDetail(gqlAxieBrief)))
+      let results = gqlResponse.data.axies.results.map(gqlAxieBrief => getAxiemizeDetail(gqlAxieBrief))
+      if (sort === 'totals') {
+        const sortByTotals = gqlResponse.data.axies.results
+          .map(({ id, parts: instanceParts }) => {
+            return {
+              id,
+              ...getTotalParts(instanceParts),
+            }
+          })
+          .sort(
+            (totalsA, totalsB) =>
+              totalsB.attack + totalsB.defense + totalsB.energy - (totalsA.attack + totalsA.defense + totalsA.energy)
+          )
+        results = sortByTotals.map(totals => results.find(axie => axie.id === totals.id))
+      }
+      console.table(results)
     },
   })
 
