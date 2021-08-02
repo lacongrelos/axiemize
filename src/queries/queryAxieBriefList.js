@@ -110,8 +110,12 @@ const queryAxieBriefList = ({ classes, parts, hp, morale, breedCount, pureness, 
         parts: parts || [],
         hp: range(hp) || [],
         morale: range(morale) || [],
-        breedCount: breedCount || null,
-        pureness: pureness || null,
+        breedCount: breedCount ? [0, breedCount] : null,
+        pureness: pureness
+          ? Array(7 - pureness)
+              .fill(null)
+              .map((_, i) => i + pureness)
+          : null,
         skill: range(skill) || [],
         speed: range(speed) || [],
       },

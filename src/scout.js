@@ -60,28 +60,28 @@ yargs(hideBin(process.argv))
           describe: 'axie parts',
           type: 'string',
         })
-        .option('pureness', {
+        .option('axie from "pureness" until 6. Max: 6', {
           describe: 'axie min pureness',
           type: 'number',
         })
         .option('hp', {
-          describe: 'axie min hp',
+          describe: 'axies min hp',
           type: 'number',
         })
         .option('speed', {
-          describe: 'axie min speed',
+          describe: 'axies min speed',
           type: 'number',
         })
         .option('morale', {
-          describe: 'axie min morale',
+          describe: 'axies min morale',
           type: 'number',
         })
         .option('skill', {
-          describe: 'axie min skill',
+          describe: 'axies min skill',
           type: 'number',
         })
         .option('breedCount', {
-          describe: 'axie min breed',
+          describe: 'axies from 0 until "breedCount". Max: 7',
           type: 'number',
         })
         .option('limit', {
@@ -89,7 +89,7 @@ yargs(hideBin(process.argv))
           type: 'number',
         })
         .option('sort', {
-          describe: 'extra sort option [totals]',
+          describe: 'extra sort option [totals|attack|defense]',
           type: 'string',
         })
         .example('scout market --classes Plants,Reptile')
@@ -101,21 +101,34 @@ yargs(hideBin(process.argv))
         .split(',')
         .map(selectedClass => capitalize(selectedClass))
         .map(selectedClass => AxieClasses.find(axieClass => axieClass.startsWith(selectedClass)))
-
+        .filter(axieClass => axieClass)
       const parsedParts = parts
-        ? parts
-            .split(',')
-            .map(
-              part =>
-                new RegExp(
-                  part
-                    .split('-')
-                    .map(el => `(${el})\\w*`)
-                    .join('\\-')
-                )
+        .split(',')
+        .map(
+          part =>
+            new RegExp(
+              part
+                .split('-')
+                .map(el => `(${el})\\w*`)
+                .join('\\-')
             )
-            .map(regexPart => AxieParts.find(axiePart => regexPart.test(axiePart)))
-        : undefined
+        )
+        .map(regexPart =>
+          AxieParts.find(axiePart => {
+            return regexPart.test(axiePart)
+          })
+        )
+        .filter(axiePart => axiePart)
+
+      if (classes && !parsedClasses.length) {
+        console.log(`Ups, classes ${classes} not found. Try again: ${AxieClasses.join(' | ')}`)
+        return
+      }
+
+      if (parts && !parsedParts.length) {
+        console.log(`Ups, parts ${parts} not found. Try again`)
+        return
+      }
 
       console.log(
         `fetching axies from marketplace. Query based on ${[
@@ -144,19 +157,26 @@ yargs(hideBin(process.argv))
 
       console.log(`Found ${gqlResponse.data.axies.total} axies`)
       let results = gqlResponse.data.axies.results.map(gqlAxieBrief => getAxiemizeDetail(gqlAxieBrief))
-      if (sort === 'totals') {
-        const sortByTotals = gqlResponse.data.axies.results
-          .map(({ id, parts: instanceParts }) => {
-            return {
-              id,
-              ...getTotalParts(instanceParts),
-            }
-          })
-          .sort(
+      if (sort) {
+        const totalParts = gqlResponse.data.axies.results.map(({ id, parts: instanceParts }) => {
+          return {
+            id,
+            ...getTotalParts(instanceParts),
+          }
+        })
+
+        if (sort === 'totals') {
+          totalParts.sort(
             (totalsA, totalsB) =>
               totalsB.attack + totalsB.defense + totalsB.energy - (totalsA.attack + totalsA.defense + totalsA.energy)
           )
-        results = sortByTotals.map(totals => results.find(axie => axie.id === totals.id))
+        } else if (sort === 'attack') {
+          totalParts.sort((totalsA, totalsB) => totalsB.attack - totalsA.attack)
+        } else if (sort === 'defense') {
+          totalParts.sort((totalsA, totalsB) => totalsB.defense - totalsA.defense)
+        }
+
+        results = totalParts.map(totals => results.find(axie => axie.id === totals.id))
       }
       console.table(results)
     },
