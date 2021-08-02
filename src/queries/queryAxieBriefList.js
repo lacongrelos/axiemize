@@ -97,12 +97,12 @@ fragment AxieStats on AxieStats {
 
 const range = min => [min >= 27 && min <= 61 ? min : 27, 61]
 
-const queryAxieBriefList = ({ classes, parts, hp, morale, breedCount, pureness, skill, speed }) =>
+const queryAxieBriefList = ({ classes, parts, hp, morale, breedCount, pureness, skill, speed, limit = 50 }) =>
   request({
     query: gql,
     variables: {
       from: 0,
-      size: 50,
+      size: limit,
       sort: 'PriceAsc',
       auctionType: 'Sale',
       criteria: {
@@ -110,8 +110,12 @@ const queryAxieBriefList = ({ classes, parts, hp, morale, breedCount, pureness, 
         parts: parts || [],
         hp: range(hp) || [],
         morale: range(morale) || [],
-        breedCount: breedCount || null,
-        pureness: pureness || null,
+        breedCount: breedCount ? [0, breedCount] : null,
+        pureness: pureness
+          ? Array(7 - pureness)
+              .fill(null)
+              .map((_, i) => i + pureness)
+          : null,
         skill: range(skill) || [],
         speed: range(speed) || [],
       },
