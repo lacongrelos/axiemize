@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
-    "src/**/*.{js,json}": "eslint --cache"
+    "src/**/*.{js}": "eslint --cache"
   },
   "commitlint": {
     "extends": [

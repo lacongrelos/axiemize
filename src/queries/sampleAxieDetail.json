@@ -1,0 +1,201 @@
+{
+  "data": {
+    "axie": {
+      "id": "1855729",
+      "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1855729/axie/axie-full-transparent.png",
+      "class": "Reptile",
+      "chain": "ronin",
+      "name": "Axie #1855729",
+      "genes": "0x50000000071c50110043294414a510c21483294614a128481481094a14841144",
+      "owner": "0x9524ae7fc2046077c8e38a86fc25afede07f1abd",
+      "birthDate": 1625908955,
+      "bodyShape": "Normal",
+      "sireId": 1479222,
+      "sireClass": "Reptile",
+      "matronId": 1480826,
+      "matronClass": "Reptile",
+      "stage": 4,
+      "title": "",
+      "breedCount": 3,
+      "level": 1,
+      "figure": {
+        "atlas": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1855729/axie/axie.atlas",
+        "model": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1855729/axie/axie.json",
+        "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1855729/axie/axie.png",
+        "__typename": "AxieFigure"
+      },
+      "parts": [
+        {
+          "id": "eyes-little-peas",
+          "name": "Little Peas",
+          "class": "Beast",
+          "type": "Eyes",
+          "specialGenes": null,
+          "stage": 1,
+          "abilities": [],
+          "__typename": "AxiePart"
+        },
+        {
+          "id": "ears-small-frill",
+          "name": "Small Frill",
+          "class": "Reptile",
+          "type": "Ears",
+          "specialGenes": null,
+          "stage": 1,
+          "abilities": [],
+          "__typename": "AxiePart"
+        },
+        {
+          "id": "back-indian-star",
+          "name": "Indian Star",
+          "class": "Reptile",
+          "type": "Back",
+          "specialGenes": null,
+          "stage": 1,
+          "abilities": [
+            {
+              "id": "reptile-back-08",
+              "name": "Bulkwark",
+              "attack": 20,
+              "defense": 80,
+              "energy": 1,
+              "description": "Reflect 40% of melee damage back at attacker.",
+              "backgroundUrl": "https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-back-08.png",
+              "effectIconUrl": "https://storage.googleapis.com/axie-cdn/game/cards/effect-icons/damage-reflect.png",
+              "__typename": "AxieCardAbility"
+            }
+          ],
+          "__typename": "AxiePart"
+        },
+        {
+          "id": "mouth-tiny-turtle",
+          "name": "Tiny Turtle",
+          "class": "Reptile",
+          "type": "Mouth",
+          "specialGenes": null,
+          "stage": 1,
+          "abilities": [
+            {
+              "id": "reptile-mouth-10",
+              "name": "Chomp",
+              "attack": 80,
+              "defense": 50,
+              "energy": 1,
+              "description": "Apply Stun to enemy when comboed with at least 2 additional cards.",
+              "backgroundUrl": "https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-mouth-10.png",
+              "effectIconUrl": "https://storage.googleapis.com/axie-cdn/game/cards/effect-icons/stun.png",
+              "__typename": "AxieCardAbility"
+            }
+          ],
+          "__typename": "AxiePart"
+        },
+        {
+          "id": "horn-incisor",
+          "name": "Incisor",
+          "class": "Reptile",
+          "type": "Horn",
+          "specialGenes": null,
+          "stage": 1,
+          "abilities": [
+            {
+              "id": "reptile-horn-10",
+              "name": "Disarm",
+              "attack": 100,
+              "defense": 40,
+              "energy": 1,
+              "description": "Apply speed- to target for 2 rounds.",
+              "backgroundUrl": "https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-horn-10.png",
+              "effectIconUrl": "https://storage.googleapis.com/axie-cdn/game/cards/effect-icons/speed-down.png",
+              "__typename": "AxieCardAbility"
+            }
+          ],
+          "__typename": "AxiePart"
+        },
+        {
+          "id": "tail-snake-jar",
+          "name": "Snake Jar",
+          "class": "Reptile",
+          "type": "Tail",
+          "specialGenes": null,
+          "stage": 1,
+          "abilities": [
+            {
+              "id": "reptile-tail-08",
+              "name": "Jar Barrage",
+              "attack": 80,
+              "defense": 20,
+              "energy": 1,
+              "description": "Attacks that break this Axie’s shield cannot do additional damage. Can only trigger once per round.",
+              "backgroundUrl": "https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-tail-08.png",
+              "effectIconUrl": "https://storage.googleapis.com/axie-cdn/game/cards/effect-icons/fixed-damage.png",
+              "__typename": "AxieCardAbility"
+            }
+          ],
+          "__typename": "AxiePart"
+        }
+      ],
+      "stats": {
+        "hp": 54,
+        "speed": 41,
+        "skill": 31,
+        "morale": 38,
+        "__typename": "AxieStats"
+      },
+      "auction": {
+        "startingPrice": "160000000000000000",
+        "endingPrice": "160000000000000000",
+        "startingTimestamp": "1627345068",
+        "endingTimestamp": "1627431468",
+        "duration": "86400",
+        "timeLeft": "85880",
+        "currentPrice": "160000000000000000",
+        "currentPriceUSD": "355.73",
+        "suggestedPrice": "160000000000000000",
+        "seller": "0xc8810e7980f12f5e51aef27fcac4952552ec8b59",
+        "listingIndex": 1246670,
+        "state": "67862142263947508636663385037500672461518390106827662802971748969454441107799",
+        "__typename": "Auction"
+      },
+      "ownerProfile": {
+        "name": "Hitoshura",
+        "__typename": "PublicProfile"
+      },
+      "battleInfo": {
+        "banned": false,
+        "banUntil": null,
+        "level": 0,
+        "__typename": "AxieBattleInfo"
+      },
+      "children": [
+        {
+          "id": "2314934",
+          "name": "Axie #2314934",
+          "class": "Reptile",
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2314934/axie/axie-full-transparent.png",
+          "title": "",
+          "stage": 4,
+          "__typename": "Axie"
+        },
+        {
+          "id": "2314936",
+          "name": "Axie #2314936",
+          "class": "Reptile",
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2314936/axie/axie-full-transparent.png",
+          "title": "",
+          "stage": 4,
+          "__typename": "Axie"
+        },
+        {
+          "id": "2314949",
+          "name": "Axie #2314949",
+          "class": "Reptile",
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2314949/axie/axie-full-transparent.png",
+          "title": "",
+          "stage": 4,
+          "__typename": "Axie"
+        }
+      ],
+      "__typename": "Axie"
+    }
+  }
+}

@@ -1,0 +1,2866 @@
+{
+  "data": {
+    "axies": {
+      "total": 256,
+      "results": [
+        {
+          "id": "1993902",
+          "name": "Axie #1993902",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 1,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1993902/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "160000000000000000",
+            "endingPrice": "50000000000000000",
+            "startingTimestamp": "1627861164",
+            "endingTimestamp": "1627947564",
+            "duration": "86400",
+            "timeLeft": "84958",
+            "currentPrice": "158164120370370370",
+            "currentPriceUSD": "404.02",
+            "suggestedPrice": "158240509259259259",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-bookworm",
+              "name": "Bookworm",
+              "class": "Bug",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-early-bird",
+              "name": "Early Bird",
+              "class": "Bird",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-kestrel",
+              "name": "Kestrel",
+              "class": "Bird",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "bird-horn-08",
+                  "name": "Headshot",
+                  "attack": 130,
+                  "defense": 0,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-shiba",
+              "name": "Shiba",
+              "class": "Beast",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "beast-tail-06",
+                  "name": "Rampant Howl",
+                  "attack": 120,
+                  "defense": 30,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 50,
+            "speed": 38,
+            "skill": 31,
+            "morale": 45,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "461561",
+          "name": "Axie #461561",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/461561/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "169000000000000000",
+            "endingPrice": "169000000000000000",
+            "startingTimestamp": "1627859508",
+            "endingTimestamp": "1627945908",
+            "duration": "86400",
+            "timeLeft": "83302",
+            "currentPrice": "169000000000000000",
+            "currentPriceUSD": "431.70",
+            "suggestedPrice": "169000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-gecko",
+              "name": "Gecko",
+              "class": "Reptile",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-rosa",
+              "name": "Rosa",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-leaf-bug",
+              "name": "Leaf Bug",
+              "class": "Bug",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "bug-horn-12",
+                  "name": "Disguise",
+                  "attack": 20,
+                  "defense": 20,
+                  "energy": 0,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-yam",
+              "name": "Yam",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-08",
+                  "name": "Gas Unleash",
+                  "attack": 30,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 59,
+            "speed": 32,
+            "skill": 31,
+            "morale": 42,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2681380",
+          "name": "Axie #2681380",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2681380/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "200000000000000000",
+            "endingPrice": "160000000000000000",
+            "startingTimestamp": "1627806876",
+            "endingTimestamp": "1627893276",
+            "duration": "86400",
+            "timeLeft": "30670",
+            "currentPrice": "174199074074074074",
+            "currentPriceUSD": "444.98",
+            "suggestedPrice": "174226851851851851",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-cucumber-slice",
+              "name": "Cucumber Slice",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-earwing",
+              "name": "Earwing",
+              "class": "Bug",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-cactus",
+              "name": "Cactus",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-10",
+                  "name": "Prickly Trap",
+                  "attack": 110,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-yam",
+              "name": "Yam",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-08",
+                  "name": "Gas Unleash",
+                  "attack": 30,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 59,
+            "speed": 31,
+            "skill": 31,
+            "morale": 43,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2684871",
+          "name": "Axie #2684871",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2684871/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "180000000000000000",
+            "endingPrice": "180000000000000000",
+            "startingTimestamp": "1627806708",
+            "endingTimestamp": "1627893108",
+            "duration": "86400",
+            "timeLeft": "30502",
+            "currentPrice": "180000000000000000",
+            "currentPriceUSD": "459.80",
+            "suggestedPrice": "180000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-sleepless",
+              "name": "Sleepless",
+              "class": "Aquatic",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-hollow",
+              "name": "Hollow",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-arco",
+              "name": "Arco",
+              "class": "Beast",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "beast-horn-12",
+                  "name": "Acrobatic",
+                  "attack": 100,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 56,
+            "speed": 35,
+            "skill": 31,
+            "morale": 42,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2492302",
+          "name": "Axie #2492302",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2492302/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "267815400328489504",
+            "endingPrice": "184647202924893216",
+            "startingTimestamp": "1627761468",
+            "endingTimestamp": "1627847868",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "184647202924893216",
+            "currentPriceUSD": "471.67",
+            "suggestedPrice": "184647202924893216",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-telescope",
+              "name": "Telescope",
+              "class": "Aquatic",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-rosa",
+              "name": "Rosa",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-scaly-spoon",
+              "name": "Scaly Spoon",
+              "class": "Reptile",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "reptile-horn-08",
+                  "name": "Tiny Catalt",
+                  "attack": 80,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-yam",
+              "name": "Yam",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-08",
+                  "name": "Gas Unleash",
+                  "attack": 30,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 59,
+            "speed": 35,
+            "skill": 31,
+            "morale": 39,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "1445992",
+          "name": "Dmg/Tank",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1445992/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "185000000000000000",
+            "endingPrice": "185000000000000000",
+            "startingTimestamp": "1627851924",
+            "endingTimestamp": "1627938324",
+            "duration": "86400",
+            "timeLeft": "75718",
+            "currentPrice": "185000000000000000",
+            "currentPriceUSD": "472.57",
+            "suggestedPrice": "185000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-nerdy",
+              "name": "Nerdy",
+              "class": "Bug",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-hollow",
+              "name": "Hollow",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-cactus",
+              "name": "Cactus",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-10",
+                  "name": "Prickly Trap",
+                  "attack": 110,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-tadpole",
+              "name": "Tadpole",
+              "class": "Aquatic",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "aquatic-tail-06",
+                  "name": "Black Bubble",
+                  "attack": 110,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 57,
+            "speed": 34,
+            "skill": 31,
+            "morale": 42,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "208660",
+          "name": "DODO",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 4,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/208660/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "187000000000000000",
+            "endingPrice": "187000000000000000",
+            "startingTimestamp": "1627841601",
+            "endingTimestamp": "1627928001",
+            "duration": "86400",
+            "timeLeft": "65395",
+            "currentPrice": "187000000000000000",
+            "currentPriceUSD": "477.68",
+            "suggestedPrice": "187000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-papi",
+              "name": "Papi",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-inkling",
+              "name": "Inkling",
+              "class": "Aquatic",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-rose-bud",
+              "name": "Rose Bud",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-06",
+                  "name": "Healing Aroma",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 59,
+            "speed": 34,
+            "skill": 31,
+            "morale": 40,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2449012",
+          "name": "META",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2449012/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "200000000000000000",
+            "endingPrice": "160000000000000000",
+            "startingTimestamp": "1627795260",
+            "endingTimestamp": "1628054460",
+            "duration": "259200",
+            "timeLeft": "191854",
+            "currentPrice": "189607098765432098",
+            "currentPriceUSD": "484.34",
+            "suggestedPrice": "189616358024691358",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-mavis",
+              "name": "Mavis",
+              "class": "Bird",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-rosa",
+              "name": "Rosa",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-cactus",
+              "name": "Cactus",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-10",
+                  "name": "Prickly Trap",
+                  "attack": 110,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 58,
+            "speed": 34,
+            "skill": 31,
+            "morale": 41,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2788999",
+          "name": "Axie #2788999",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 0,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2788999/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "240000000000000000",
+            "endingPrice": "190000000000000000",
+            "startingTimestamp": "1627732542",
+            "endingTimestamp": "1627818942",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "190000000000000000",
+            "currentPriceUSD": "485.34",
+            "suggestedPrice": "190000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-papi",
+              "name": "Papi",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-clover",
+              "name": "Clover",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-scaly-spear",
+              "name": "Scaly Spear",
+              "class": "Reptile",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "reptile-horn-04",
+                  "name": "Scaly Lunge",
+                  "attack": 100,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-cattail",
+              "name": "Cattail",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-04",
+                  "name": "Cattail Slap",
+                  "attack": 20,
+                  "defense": 30,
+                  "energy": 0,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 61,
+            "speed": 32,
+            "skill": 31,
+            "morale": 40,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "1230021",
+          "name": "Axie #1230021",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1230021/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "240000000000000000",
+            "endingPrice": "190000000000000000",
+            "startingTimestamp": "1627761204",
+            "endingTimestamp": "1627847604",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "190000000000000000",
+            "currentPriceUSD": "485.34",
+            "suggestedPrice": "190000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-papi",
+              "name": "Papi",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-hollow",
+              "name": "Hollow",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-rose-bud",
+              "name": "Rose Bud",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-06",
+                  "name": "Healing Aroma",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-yam",
+              "name": "Yam",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-08",
+                  "name": "Gas Unleash",
+                  "attack": 30,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 61,
+            "speed": 31,
+            "skill": 31,
+            "morale": 41,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "530167",
+          "name": "Axie #530167",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/530167/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "200000000000000000",
+            "endingPrice": "140000000000000000",
+            "startingTimestamp": "1627849116",
+            "endingTimestamp": "1627935516",
+            "duration": "86400",
+            "timeLeft": "72910",
+            "currentPrice": "190631944444444444",
+            "currentPriceUSD": "486.96",
+            "suggestedPrice": "190673611111111111",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-papi",
+              "name": "Papi",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-sakura",
+              "name": "Sakura",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-rose-bud",
+              "name": "Rose Bud",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-06",
+                  "name": "Healing Aroma",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-shrimp",
+              "name": "Shrimp",
+              "class": "Aquatic",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "aquatic-tail-12",
+                  "name": "Chitin Jump",
+                  "attack": 30,
+                  "defense": 30,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 59,
+            "speed": 34,
+            "skill": 31,
+            "morale": 40,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2852697",
+          "name": "Axie #2852697",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 1,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2852697/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "194000000000000000",
+            "endingPrice": "116000000000000000",
+            "startingTimestamp": "1627859958",
+            "endingTimestamp": "1627946358",
+            "duration": "86400",
+            "timeLeft": "83752",
+            "currentPrice": "191609444444444444",
+            "currentPriceUSD": "489.45",
+            "suggestedPrice": "191663611111111111",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-confused",
+              "name": "Confused",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-hollow",
+              "name": "Hollow",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-rose-bud",
+              "name": "Rose Bud",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-06",
+                  "name": "Healing Aroma",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-wall-gecko",
+              "name": "Wall Gecko",
+              "class": "Reptile",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "reptile-tail-02",
+                  "name": "Critical Escape",
+                  "attack": 90,
+                  "defense": 10,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 61,
+            "speed": 32,
+            "skill": 31,
+            "morale": 40,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2027696",
+          "name": "Great PLANT",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2027696/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "192000000000000000",
+            "endingPrice": "192000000000000000",
+            "startingTimestamp": "1627727526",
+            "endingTimestamp": "1627813926",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "192000000000000000",
+            "currentPriceUSD": "490.45",
+            "suggestedPrice": "192000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-blossom",
+              "name": "Blossom",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-hollow",
+              "name": "Hollow",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-feather-spear",
+              "name": "Feather Spear",
+              "class": "Bird",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "bird-horn-12",
+                  "name": "Feather Lunge",
+                  "attack": 110,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-cattail",
+              "name": "Cattail",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-04",
+                  "name": "Cattail Slap",
+                  "attack": 20,
+                  "defense": 30,
+                  "energy": 0,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 58,
+            "speed": 34,
+            "skill": 31,
+            "morale": 41,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "284961",
+          "name": "Crazy Salad",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/284961/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "192000000000000000",
+            "endingPrice": "192000000000000000",
+            "startingTimestamp": "1627822782",
+            "endingTimestamp": "1627909182",
+            "duration": "86400",
+            "timeLeft": "46576",
+            "currentPrice": "192000000000000000",
+            "currentPriceUSD": "490.45",
+            "suggestedPrice": "192000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-confused",
+              "name": "Confused",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-hollow",
+              "name": "Hollow",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-watermelon",
+              "name": "Watermelon",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-12",
+                  "name": "Seed Bullet",
+                  "attack": 30,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-shiba",
+              "name": "Shiba",
+              "class": "Beast",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "beast-tail-06",
+                  "name": "Rampant Howl",
+                  "attack": 120,
+                  "defense": 30,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 58,
+            "speed": 32,
+            "skill": 31,
+            "morale": 43,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "1243537",
+          "name": "Axie #1243537",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1243537/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "199500000000000000",
+            "endingPrice": "149500000000000000",
+            "startingTimestamp": "1627852518",
+            "endingTimestamp": "1627938918",
+            "duration": "86400",
+            "timeLeft": "76312",
+            "currentPrice": "193662037037037037",
+            "currentPriceUSD": "494.70",
+            "suggestedPrice": "193696759259259259",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-nerdy",
+              "name": "Nerdy",
+              "class": "Bug",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-earwing",
+              "name": "Earwing",
+              "class": "Bug",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-parasite",
+              "name": "Parasite",
+              "class": "Bug",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "bug-horn-10",
+                  "name": "Third Glance",
+                  "attack": 80,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 55,
+            "speed": 31,
+            "skill": 31,
+            "morale": 47,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "1243518",
+          "name": "Axie #1243518",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1243518/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "199500000000000000",
+            "endingPrice": "149500000000000000",
+            "startingTimestamp": "1627853742",
+            "endingTimestamp": "1627940142",
+            "duration": "86400",
+            "timeLeft": "77536",
+            "currentPrice": "194370370370370370",
+            "currentPriceUSD": "496.51",
+            "suggestedPrice": "194405092592592592",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-nerdy",
+              "name": "Nerdy",
+              "class": "Bug",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-curly",
+              "name": "Curly",
+              "class": "Bird",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-parasite",
+              "name": "Parasite",
+              "class": "Bug",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "bug-horn-10",
+                  "name": "Third Glance",
+                  "attack": 80,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 54,
+            "speed": 34,
+            "skill": 31,
+            "morale": 45,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "1564688",
+          "name": "Axie #1564688",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1564688/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "219500000000000000",
+            "endingPrice": "195000000000000000",
+            "startingTimestamp": "1627771281",
+            "endingTimestamp": "1627857681",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "195000000000000000",
+            "currentPriceUSD": "498.11",
+            "suggestedPrice": "195000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-cucumber-slice",
+              "name": "Cucumber Slice",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-nimo",
+              "name": "Nimo",
+              "class": "Aquatic",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-watermelon",
+              "name": "Watermelon",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-12",
+                  "name": "Seed Bullet",
+                  "attack": 30,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 59,
+            "speed": 34,
+            "skill": 31,
+            "morale": 40,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2822987",
+          "name": "Axie #2822987",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2822987/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "200000000000000000",
+            "endingPrice": "120000000000000000",
+            "startingTimestamp": "1627837254",
+            "endingTimestamp": "1628269254",
+            "duration": "432000",
+            "timeLeft": "406648",
+            "currentPrice": "195305185185185185",
+            "currentPriceUSD": "498.89",
+            "suggestedPrice": "195316296296296296",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-confused",
+              "name": "Confused",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-rosa",
+              "name": "Rosa",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-cactus",
+              "name": "Cactus",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-10",
+                  "name": "Prickly Trap",
+                  "attack": 110,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 61,
+            "speed": 31,
+            "skill": 31,
+            "morale": 41,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2392155",
+          "name": "Axie #2392155",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2392155/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "195900000000000000",
+            "endingPrice": "195900000000000000",
+            "startingTimestamp": "1627327782",
+            "endingTimestamp": "1627414182",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "195900000000000000",
+            "currentPriceUSD": "500.41",
+            "suggestedPrice": "195900000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-mavis",
+              "name": "Mavis",
+              "class": "Bird",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-nut-cracker",
+              "name": "Nut Cracker",
+              "class": "Beast",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-unko",
+              "name": "Unko",
+              "class": "Reptile",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "reptile-horn-02",
+                  "name": "Poo Fling",
+                  "attack": 30,
+                  "defense": 80,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-nut-cracker",
+              "name": "Nut Cracker",
+              "class": "Beast",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "beast-tail-10",
+                  "name": "Nut Throw",
+                  "attack": 105,
+                  "defense": 30,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 52,
+            "speed": 37,
+            "skill": 31,
+            "morale": 44,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "1169610",
+          "name": "Axie #1169610",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 3,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/1169610/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "210000000000000000",
+            "endingPrice": "175000000000000000",
+            "startingTimestamp": "1627799718",
+            "endingTimestamp": "1627972518",
+            "duration": "172800",
+            "timeLeft": "109912",
+            "currentPrice": "197262268518518518",
+            "currentPriceUSD": "503.89",
+            "suggestedPrice": "197274421296296296",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-papi",
+              "name": "Papi",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-rosa",
+              "name": "Rosa",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-beech",
+              "name": "Beech",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-04",
+                  "name": "Wooden Stab",
+                  "attack": 105,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-grass-snake",
+              "name": "Grass Snake",
+              "class": "Reptile",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "reptile-tail-12",
+                  "name": "Venom Spray",
+                  "attack": 10,
+                  "defense": 20,
+                  "energy": 0,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 61,
+            "speed": 32,
+            "skill": 31,
+            "morale": 40,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2738777",
+          "name": "Axie #2738777",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2738777/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "199900000000000000",
+            "endingPrice": "199900000000000000",
+            "startingTimestamp": "1627666086",
+            "endingTimestamp": "1627752486",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "199900000000000000",
+            "currentPriceUSD": "510.63",
+            "suggestedPrice": "199900000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-tricky",
+              "name": "Tricky",
+              "class": "Reptile",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-lotus",
+              "name": "Lotus",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-unko",
+              "name": "Unko",
+              "class": "Reptile",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "reptile-horn-02",
+                  "name": "Poo Fling",
+                  "attack": 30,
+                  "defense": 80,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 61,
+            "speed": 33,
+            "skill": 31,
+            "morale": 39,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2350274",
+          "name": "Gretel",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 1,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2350274/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "200000000000000000",
+            "endingPrice": "200000000000000000",
+            "startingTimestamp": "1627699038",
+            "endingTimestamp": "1627785438",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "200000000000000000",
+            "currentPriceUSD": "510.89",
+            "suggestedPrice": "200000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-confused",
+              "name": "Confused",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-lotus",
+              "name": "Lotus",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-babylonia",
+              "name": "Babylonia",
+              "class": "Aquatic",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "aquatic-horn-02",
+                  "name": "Shell Jab",
+                  "attack": 100,
+                  "defense": 50,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-cattail",
+              "name": "Cattail",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-04",
+                  "name": "Cattail Slap",
+                  "attack": 20,
+                  "defense": 30,
+                  "energy": 0,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 59,
+            "speed": 34,
+            "skill": 31,
+            "morale": 40,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "2837532",
+          "name": "Axie #2837532",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/2837532/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "200000000000000000",
+            "endingPrice": "200000000000000000",
+            "startingTimestamp": "1627760334",
+            "endingTimestamp": "1627846734",
+            "duration": "86400",
+            "timeLeft": "0",
+            "currentPrice": "200000000000000000",
+            "currentPriceUSD": "510.89",
+            "suggestedPrice": "200000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-papi",
+              "name": "Papi",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-hollow",
+              "name": "Hollow",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-cactus",
+              "name": "Cactus",
+              "class": "Plant",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "plant-horn-10",
+                  "name": "Prickly Trap",
+                  "attack": 110,
+                  "defense": 20,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-granmas-fan",
+              "name": "Granma's Fan",
+              "class": "Bird",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "bird-tail-10",
+                  "name": "Cool Breeze",
+                  "attack": 120,
+                  "defense": 30,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 58,
+            "speed": 34,
+            "skill": 31,
+            "morale": 41,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        },
+        {
+          "id": "719582",
+          "name": "1BgC4",
+          "stage": 4,
+          "class": "Plant",
+          "breedCount": 2,
+          "image": "https://storage.googleapis.com/assets.axieinfinity.com/axies/719582/axie/axie-full-transparent.png",
+          "title": "",
+          "battleInfo": {
+            "banned": false,
+            "__typename": "AxieBattleInfo"
+          },
+          "auction": {
+            "startingPrice": "200000000000000000",
+            "endingPrice": "200000000000000000",
+            "startingTimestamp": "1627841820",
+            "endingTimestamp": "1627928220",
+            "duration": "86400",
+            "timeLeft": "65614",
+            "currentPrice": "200000000000000000",
+            "currentPriceUSD": "510.89",
+            "suggestedPrice": "200000000000000000",
+            "__typename": "Auction"
+          },
+          "parts": [
+            {
+              "id": "eyes-confused",
+              "name": "Confused",
+              "class": "Plant",
+              "type": "Eyes",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "ears-lotus",
+              "name": "Lotus",
+              "class": "Plant",
+              "type": "Ears",
+              "abilities": [],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "back-shiitake",
+              "name": "Shiitake",
+              "class": "Plant",
+              "type": "Back",
+              "abilities": [
+                {
+                  "id": "plant-back-04",
+                  "name": "Shroom's Grace",
+                  "attack": 0,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "mouth-zigzag",
+              "name": "Zigzag",
+              "class": "Plant",
+              "type": "Mouth",
+              "abilities": [
+                {
+                  "id": "plant-mouth-04",
+                  "name": "Drain Bite",
+                  "attack": 60,
+                  "defense": 60,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "horn-wing-horn",
+              "name": "Wing Horn",
+              "class": "Bird",
+              "type": "Horn",
+              "abilities": [
+                {
+                  "id": "bird-horn-10",
+                  "name": "Smart Shot",
+                  "attack": 50,
+                  "defense": 10,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            },
+            {
+              "id": "tail-carrot",
+              "name": "Carrot",
+              "class": "Plant",
+              "type": "Tail",
+              "abilities": [
+                {
+                  "id": "plant-tail-02",
+                  "name": "Carrot Hammer",
+                  "attack": 70,
+                  "defense": 40,
+                  "energy": 1,
+                  "__typename": "AxieCardAbility"
+                }
+              ],
+              "__typename": "AxiePart"
+            }
+          ],
+          "stats": {
+            "hp": 58,
+            "speed": 34,
+            "skill": 31,
+            "morale": 41,
+            "__typename": "AxieStats"
+          },
+          "__typename": "Axie"
+        }
+      ],
+      "__typename": "Axies"
+    }
+  }
+}
