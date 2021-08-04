@@ -22,6 +22,7 @@ module.exports = {
         classPropertiesAllowed: false,
       },
     ],
+    'prefer-destructuring': ['error', { object: true, array: false }],
     'no-console': OFF,
     'no-debugger': ERROR,
     'no-nested-ternary': WARNING,

@@ -1,12 +1,12 @@
-const { EmojiClasses, EmojiStats } = require('./AxieElements')
+const { EmojiClasses, EmojiStats, AxieBodyPartStats } = require('./AxieElements')
 const { getTotalParts } = require('./AxieGetters')
 
-const formatPart = ({ class: group, abilities = [], name }) => {
+const formatPart = ({ class: group, abilities = [], name, id }) => {
   const description = abilities.length
     ? ` 🗡️ ${abilities[0].attack} 🛡️ ${abilities[0].defense} ⚡ ${abilities[0].energy}`
     : ''
 
-  return `${EmojiClasses[group]}${description} ${name}`
+  return `${EmojiClasses[group]}${description} ${name} (${AxieBodyPartStats[id]})`
 }
 
 const formatTotalParts = (parts = []) => {

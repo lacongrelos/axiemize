@@ -1,11 +1,14 @@
 const yargs = require('yargs')
 const { hideBin } = require('yargs/helpers')
-const { AxieClasses, AxieParts, AxiePartNames, EmojiClasses } = require('./mappers/AxieElements')
+const fetch = require('node-fetch')
+const { AxieClasses, AxieBodyPartClasses, AxieBodyPartNames, EmojiClasses } = require('./mappers/AxieElements')
 const capitalize = require('./utils/capitalize')
 const queryAxieDetail = require('./queries/queryAxieDetail')
 const getAxiemizeDetail = require('./mappers/getAxiemizeDetail')
 const { getTotalParts } = require('./mappers/AxieGetters')
 const queryAxieBriefList = require('./queries/queryAxieBriefList')
+const parseBodyPartStats = require('./parsers/parseBodyPartStats')
+const saveFile = require('./utils/saveFile')
 
 const simpleFormat = (type, ref) => (ref ? `${type}: ${ref}, ` : '')
 
@@ -15,7 +18,9 @@ const prettyFormat = (type, ref) => {
   }
 
   if (type === 'parts' && ref) {
-    return `Parts: ${ref.map(thePart => `${EmojiClasses[AxiePartNames[thePart]]} ${thePart}`).join(',')}`
+    return `Parts: ${ref
+      .map(theBodyPart => `${EmojiClasses[AxieBodyPartClasses[theBodyPart]]} ${theBodyPart}`)
+      .join(',')}`
   }
 
   return simpleFormat(type, ref)
@@ -114,7 +119,7 @@ yargs(hideBin(process.argv))
             )
         )
         .map(regexPart =>
-          AxieParts.find(axiePart => {
+          AxieBodyPartNames.find(axiePart => {
             return regexPart.test(axiePart)
           })
         )
@@ -181,6 +186,16 @@ yargs(hideBin(process.argv))
       console.table(results)
     },
   })
-
+  .command({
+    command: 'body-part-stats',
+    desc: 'Generates a json with body parts pvp statistics from axie.zone',
+    handler: async () => {
+      console.log('Fetching https://axie.zone/pvp-statistics?season=17')
+      const response = await fetch('https://axie.zone/pvp-statistics?season=17')
+      const body = await response.text()
+      console.log('Saving ...')
+      saveFile(`body-pars-stats-${Date.now()}.json`, parseBodyPartStats(body))
+    },
+  })
   .demandCommand()
   .help().argv
