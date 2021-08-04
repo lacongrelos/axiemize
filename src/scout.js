@@ -101,29 +101,32 @@ yargs(hideBin(process.argv))
         .example('scout market --classes p,r')
         .example('scout market --classes p,r --parts ba-shi')
     },
-    handler: async ({ classes = '', parts = '', pureness, hp, morale, skill, speed, breedCount, limit, sort }) => {
+    handler: async ({ classes = '', parts, pureness, hp, morale, skill, speed, breedCount, limit, sort }) => {
       const parsedClasses = classes
         .split(',')
         .map(selectedClass => capitalize(selectedClass))
         .map(selectedClass => AxieClasses.find(axieClass => axieClass.startsWith(selectedClass)))
         .filter(axieClass => axieClass)
       const parsedParts = parts
-        .split(',')
-        .map(
-          part =>
-            new RegExp(
-              part
-                .split('-')
-                .map(el => `(${el})\\w*`)
-                .join('\\-')
+        ? parts
+            .split(',')
+            .map(
+              part =>
+                new RegExp(
+                  part
+                    .split('-')
+                    .map(el => `(${el})\\w*`)
+                    .join('\\-')
+                )
             )
-        )
-        .map(regexPart =>
-          AxieBodyPartNames.find(axiePart => {
-            return regexPart.test(axiePart)
-          })
-        )
-        .filter(axiePart => axiePart)
+            .map(regexPart =>
+              AxieBodyPartNames.find(axiePart => {
+                console.log(regexPart.test(axiePart), axiePart, regexPart)
+                return regexPart.test(axiePart)
+              })
+            )
+            .filter(axiePart => axiePart)
+        : null
 
       if (classes && !parsedClasses.length) {
         console.log(`Ups, classes ${classes} not found. Try again: ${AxieClasses.join(' | ')}`)
